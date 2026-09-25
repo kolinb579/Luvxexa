@@ -722,7 +722,7 @@
               <span class="contact-icon">📍</span>
               <div>
                 <strong> Location</strong><br>
-                <span>1234 Commerce Street, Suite 500<br>Austin, TX 78701, United States</span>
+                <span>139 West 35th Street, <br>New York, NY 10018</span>
               </div>
             </div><div class="contact-info-item">
               <span class="contact-icon">📍</span>

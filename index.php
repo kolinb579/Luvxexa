@@ -299,16 +299,86 @@
       white-space: nowrap;
     }
 
-    /* ---------- ABOUT & CONTACT ---------- */
-    .about-content {
-      max-width: 800px;
-      margin: 0 auto;
-      text-align: center;
-      background: #f8fafc;
-      padding: 2.5rem 2rem;
-      border-radius: 24px;
-      border: 1px solid #e2e8f0;
-    }
+  /* ABOUT SECTION */
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.about-image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.about-image img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  display: block;
+}
+
+.about-text h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about-text > p {
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.about-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 25px 0 30px;
+}
+
+.about-feature {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.about-feature > span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-feature strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.about-feature p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .about-image img {
+    height: 400px;
+  }
+
+  .about-text h3 {
+    font-size: 25px;
+  }
+
+  .about-features {
+    grid-template-columns: 1fr;
+  }
+}
 
     .contact-grid {
       display: grid;
@@ -694,18 +764,84 @@
     </div>
   </div>
 </section>
-    <!-- ABOUT SECTION -->
-    <section id="about">
-      <div class="container">
-        <div class="section-header">
-          <h2>About luvxexa</h2>
-        </div>
-        <div class="about-content">
-          <p>luvxexa offers carefully selected products that blend quality, value, and everyday practicality. We work directly with trusted suppliers to bring you a curated collection — from tech accessories to home essentials — all shipped from within the United States.</p>
-          <p>Our goal is simple: provide a straightforward, convenient online shopping experience with transparent pricing, secure checkout, and responsive customer support. No clutter, no gimmicks — just good products and reliable service.</p>
-        </div>
+ <!-- ABOUT SECTION -->
+<section id="about">
+  <div class="container">
+    <div class="section-header">
+      <h2>About luvxexa</h2>
+      <p>Style, confidence, and fashion made for every woman.</p>
+    </div>
+
+    <div class="about-content">
+      
+      <!-- ABOUT IMAGE -->
+      <div class="about-image">
+        <img src="about.jpg" alt="Women's fashion collection">
       </div>
-    </section>
+
+      <!-- ABOUT TEXT -->
+      <div class="about-text">
+        <h3>Fashion That Fits Your Style</h3>
+
+        <p>
+          At <strong>luvxexa</strong>, we believe fashion should be effortless,
+          comfortable, and made to express your individual style. Our collection
+          brings together carefully selected women's dresses, fashion essentials,
+          and everyday pieces designed for modern women.
+        </p>
+
+        <p>
+          From elegant dresses for special occasions to comfortable styles for
+          everyday wear, we focus on offering fashionable pieces that combine
+          quality, versatility, and great value.
+        </p>
+
+        <p>
+          Our goal is to make online shopping simple and enjoyable. We carefully
+          select products, provide clear product information, and work to deliver
+          a smooth shopping experience from browsing to delivery.
+        </p>
+
+        <div class="about-features">
+          <div class="about-feature">
+            <span>✓</span>
+            <div>
+              <strong>Curated Fashion</strong>
+              <p>Styles selected for modern women.</p>
+            </div>
+          </div>
+
+          <div class="about-feature">
+            <span>✓</span>
+            <div>
+              <strong>Quality & Value</strong>
+              <p>Fashionable products at thoughtful prices.</p>
+            </div>
+          </div>
+
+          <div class="about-feature">
+            <span>✓</span>
+            <div>
+              <strong>Easy Shopping</strong>
+              <p>A simple and convenient online experience.</p>
+            </div>
+          </div>
+
+          <div class="about-feature">
+            <span>✓</span>
+            <div>
+              <strong>Customer Support</strong>
+              <p>Friendly support when you need assistance.</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="#shop" class="btn btn-secondary">Explore Our Collection</a>
+      </div>
+
+    </div>
+  </div>
+</section>
 
     <!-- CONTACT SECTION -->
     <section id="contact">

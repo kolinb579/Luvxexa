@@ -662,10 +662,7 @@
           <h3 class="product-name">Floral Summer Dress</h3>
           <p class="product-desc">Lightweight floral dress with a comfortable fit, perfect for everyday wear.</p>
           <div class="product-price">$49.99</div>
-          <div class="product-actions">
-            <button class="btn btn-outline" type="button">Add to Cart</button>
-            <button class="btn btn-secondary" type="button">Buy Now</button>
-          </div>
+         
         </div>
       </article>
 
@@ -678,10 +675,7 @@
           <h3 class="product-name">Elegant Midi Dress</h3>
           <p class="product-desc">Elegant midi dress with a flattering silhouette for casual and special occasions.</p>
           <div class="product-price">$64.99</div>
-          <div class="product-actions">
-            <button class="btn btn-outline" type="button">Add to Cart</button>
-            <button class="btn btn-secondary" type="button">Buy Now</button>
-          </div>
+          
         </div>
       </article>
 
@@ -694,10 +688,7 @@
           <h3 class="product-name">Lehanga</h3>
           <p class="product-desc">Soft and comfortable maxi dress designed for relaxed everyday style.</p>
           <div class="product-price">$59.99</div>
-          <div class="product-actions">
-            <button class="btn btn-outline" type="button">Add to Cart</button>
-            <button class="btn btn-secondary" type="button">Buy Now</button>
-          </div>
+          
         </div>
       </article>
 

@@ -631,9 +631,8 @@
     <section id="home" class="hero">
       <div class="container hero-grid">
         <div class="hero-content">
-          <h1>Discover Products You’ll Love</h1>
-          <p>Curated essentials for modern American living. Quality picks, fair prices, and fast shipping from our US warehouse.</p>
-
+         <h1>Style Made for Every Woman</h1>
+<p>Discover elegant dresses, timeless fashion, and everyday essentials thoughtfully selected to help you look and feel your best.</p>
         </div>
         <div class="hero-image">
           <!-- Replace with your own hero image -->
